@@ -1,23 +1,93 @@
-@import url(public.css);
 
-a{}
-a:hover{ color:#FF0000}
-#header{ padding:32px 0px 0px 0px; margin:0 auto; background:url(../images/index/head.png) top center no-repeat; width:1250px; height:84px;}
-.head-wrap{ width:1200px; margin:0 auto;}
-/*New Nav Style*/
-.english-info{ float:right; height:0px; margin-top:0px}
-.english-info a{ color:#FFFFFF}
-.english-info a:hover{ color:#FFB422}
-#header .mainNav{ margin:0; padding:0;}
-#header .mainNav .nav{ width:770px;float:right}
-.nav{ padding:0 0px; height:84px; line-height:84px; position:relative; z-index:9998;  }
-.nav a{ color:#fff;  }
-.nav .nLi{ float:left;  position:relative; display:inline; width:110px;  }
-.nav .nLi h3{ float:left;  background:url(../images/index/head-ico.jpg) 8px 37px no-repeat;  }
-.nav .nLi h3 a{ display:block; padding:0  0px; font-size:14px; font-weight:bold; width:106px; text-align:center;}
-.nav .sub{ display:none; width:138px; left:-15px; top:84px;  position:absolute; background:#99C6DD; line-height:43px;  padding:5px 0; border:1PX solid #75AECB; z-index:9999 }
-.nav .sub li{ zoom:1; }
-.nav .sub a{
+a:hover
+{ 
+color:#FF0000
+}
+#header
+{ 
+padding:32px 0px 0px 0px; 
+margin:0 auto; 
+background:url(../images/index/head.png) top center no-repeat; 
+width:1250px; 
+height:84px;}
+.head-wrap
+{
+width:1200px;
+margin:0 auto;
+}
+.english-info
+{
+float:right; 
+height:0px;
+margin-top:0px
+}
+.english-infoa{
+color:#FFFFFF
+}
+.english-info a:hover
+{ 
+color:#FFB422
+}
+#header .mainNav
+{
+margin:0; padding:0;
+}
+#header .mainNav .nav
+{ 
+width:770px;float:right
+}
+.nav
+{ 
+padding:0 0px;
+height:84px;
+line-height:84px;
+position:relative;
+z-index:9998;  
+}
+.nav a
+{ 
+color:#fff;
+}
+.nav .nLi
+{ 
+float:left; 
+position:relative;
+display:inline;
+width:110px; 
+}
+.nav .nLi h3
+{ 
+float:left; 
+background:url(../images/index/head-ico.jpg) 8px 37px no-repeat;  
+}
+.nav .nLi h3 a
+{ 
+display:block; 
+padding:0  0px; 
+font-size:14px;
+font-weight:bold;
+width:106px; 
+text-align:center;
+}
+.nav .sub
+{ 
+display:none; 
+width:138px; 
+left:-15px; 
+top:84px; 
+position:absolute; 
+background:#99C6DD;
+line-height:43px; 
+padding:5px 0; 
+border:1PX solid #75AECB;
+z-index:9999 
+}
+.nav .sub li
+{ 
+zoom:1;
+}
+.nav .sub a
+{
 	display: block;
 	padding: 0 0px;
 	color: #000;
@@ -28,112 +98,137 @@ a:hover{ color:#FF0000}
 	line-height: 39px;
 	text-indent: 1.5em;
 }
-.nav .sub a:hover{color:#FF0000 }
-.nav .on h3 a{ color:#fff;  background:url(../images/index/head-on.png) no-repeat; text-decoration:none }
+.nav .sub a:hover
+{
+color:#FF0000
+}
+.nav .on h3 a
+{ color:#fff;
+background:url(../images/index/head-on.png) no-repeat;
+text-decoration:none
+}
 
-.container{ width:1250px; margin:0 auto; position:relative; z-index:99; }
-.index-menu{ width:1250px; margin:0 auto; position:relative;}
-.iosSlider {
-				width: 1250px;
-				height: 500px;
-				
-				
+.container
+{
+width:1250px; 
+margin:0 auto;
+position:relative;
+z-index:99;
+}
+.index-menu
+{ 
+width:1250px; 
+margin:0 auto; 
+position:relative;
+}
+.iosSlider
+{
+	width: 1250px;
+	height: 500px;
+}
 			
-			}
+.iosSlider .slider
+{
+width: 100%;
+height: 100%;
+}
+.iosSlider .slider .item
+{			
+position: relative;
+top: 0;
+left: 0;
+width: 1250px;
+height: 500px;
+background: #fff;
+margin: 0 0 0 0;
+cursor:pointer;
+}
 			
-			.iosSlider .slider {
-				width: 100%;
-				height: 100%;
-			}
+.iosSlider .slider #item1
+{
+background:url(../images/index/b-1.jpg) no-repeat 50% 0;
+}
+.iosSlider .slider #item2
+{
+background: url(../images/index/b-2.jpg) no-repeat 50% 0;
+}
+.iosSlider .slider #item3
+{
+background: url(h-slider-3.jpg) no-repeat 50% 0;
+}
 			
-			.iosSlider .slider .item {
-				position: relative;
-				top: 0;
-				left: 0;
-				width: 1250px;
-				height: 500px;
-				background: #fff;
-				
-				margin: 0 0 0 0;
-				cursor:pointer;
-			}
+.iosSlider .slider #item4
+{
+background: url(h-slider-4.jpg) no-repeat 50% 0;
+}
 			
-			.iosSlider .slider #item1 {
-				background:url(../images/index/b-1.jpg) no-repeat 50% 0;
-			}
+.iosSlider .slider .item .text2 
+{
+position: absolute;
+top: 300px;
+right: 0;
+background:url(../images/index/item_left.png) no-repeat;
+padding-left:60px;
+height:44px;
+line-height:44px;
+opacity: 0.25;
+filter: alpha(opacity:0.25);
+}
 			
-			.iosSlider .slider #item2 {
-				background: url(../images/index/b-2.jpg) no-repeat 50% 0;
-			}
+.iosSlider .slider .item .text2 table td
+{
+	color: #fff;
+	font-family:'黑体';
+	font-size:24px;
+	padding-right:20px;
+	height:44px; 
+	line-height:44px;
+	background:url(../images/index/item_r.png) repeat-x;
+}
+.iosSlider .slider .item .text2 table td  a
+{ 
+color:#FFFFFF
+}
+.iosSlider .slider .item .text2 table td  a:hover
+{ 
+color:#FF0000 
+}
+.iosSliderButtons
+{
+position: absolute;
+bottom: 80px;
+left: 620px;
+width: 200px;
+height: 10px;
+}
+.iosSliderButtons .button 
+{
+	float: left;
+	width: 9px;
+	height: 9px;
+	background: #999;
+	margin: 0 10px 0 0;
+	opacity: 25;
+	filter: alpha(opacity:25);
+	border: 1px solid #000;
+}
 			
-			.iosSlider .slider #item3 {
-				background: url(h-slider-3.jpg) no-repeat 50% 0;
-			}
+.iosSliderButtons .selected
+{
+	background: #000;
+	opacity: 1;
+	filter: alpha(opacity:100);
+}
 			
-			.iosSlider .slider #item4 {
-				background: url(h-slider-4.jpg) no-repeat 50% 0;
-			}
-			
-			
-			.iosSlider .slider .item .text2 {
-				position: absolute;
-				top: 300px;
-				right: 0;
-				background:url(../images/index/item_left.png) no-repeat;
-				padding-left:60px;
-				height:44px;
-				line-height:44px;
-				opacity: 0.25;
-				filter: alpha(opacity:0.25);
-				
-			}
-			.iosSlider .slider .item .text2 table{}
-			
-			.iosSlider .slider .item .text2 table td {
-				color: #fff;
-				font-family:'黑体';
-				font-size:24px;
-				padding-right:20px;
-				height:44px; 
-				line-height:44px;
-				background:url(../images/index/item_r.png) repeat-x;
-				
-			}
-			.iosSlider .slider .item .text2 table td  a{ color:#FFFFFF}
-			.iosSlider .slider .item .text2 table td  a:hover{ color:#FF0000 }
-			.iosSliderButtons {
-				position: absolute;
-				bottom: 80px;
-				left: 620px;
-				width: 200px;
-				height: 10px;
-				
-			}
-			
-			.iosSliderButtons .button {
-				float: left;
-				width: 9px;
-				height: 9px;
-				background: #999;
-				margin: 0 10px 0 0;
-				opacity: 25;
-				filter: alpha(opacity:25);
-				border: 1px solid #000;
-			}
-			
-			.iosSliderButtons .selected {
-				background: #000;
-				opacity: 1;
-				filter: alpha(opacity:100);
-			}
-			
-.iosSliderButtons .prev {
+.iosSliderButtons .prev
+{
 	float: left;
 	width: 11px;
 	height: 11px;
 	background: url(../images/arrow_left.png) no-repeat 50% 0;
 }
-.iosSliderButtons .next {
+.iosSliderButtons .next 
+{
 	float: left;
 	width: 11px;
 	height: 11px;
@@ -160,37 +255,95 @@ a:hover{ color:#FF0000}
 
 
 .iosSliderDemo {
-	POSITION: relative; PADDING-BOTTOM: 400px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; CLEAR: both; PADDING-TOP: 0px
+	POSITION: relative; 
+	PADDING-BOTTOM: 400px;
+	PADDING-LEFT: 0px;
+	WIDTH: 100%; 
+	PADDING-RIGHT: 0px; 
+	CLEAR: both; 
+	PADDING-TOP: 0px
 }
 .fluidHeight {
-	POSITION: absolute; WIDTH: 100%; HEIGHT: 400px
+	POSITION: absolute;
+	WIDTH: 100%; 
+	HEIGHT: 400px
 }
 .sliderContainer {
-	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; HEIGHT: 100%; MAX-HEIGHT: 400px; PADDING-TOP: 0px
+	PADDING-BOTTOM: 0px;
+	PADDING-LEFT: 0px; 
+	PADDING-RIGHT: 0px; 
+	HEIGHT: 100%;
+	MAX-HEIGHT: 400px;
+	PADDING-TOP: 0px;
 }
 .iosSlider {
-	POSITION: relative; WIDTH: 100%; HEIGHT: 100%; OVERFLOW: hidden; TOP: 0px; LEFT: 0px
+	POSITION: relative; 
+	WIDTH: 100%;
+	HEIGHT: 100%; 
+	OVERFLOW: hidden; 
+	TOP: 0px;
+	LEFT: 0px
 }
 .iosSlider .slider {
-	WIDTH: 100%; HEIGHT: 100%
+	WIDTH: 100%;
+	HEIGHT: 100%
 }
 .iosSlider .slider .item {
-	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; MAX-WIDTH: 1250px; HEIGHT: 100%; PADDING-TOP: 0px
+	TEXT-ALIGN: center; 
+	PADDING-BOTTOM: 0px;
+	PADDING-LEFT: 0px; 
+	WIDTH: 100%; 
+	PADDING-RIGHT: 0px;
+	MAX-WIDTH: 1250px; 
+	HEIGHT: 100%; 
+	PADDING-TOP: 0px
 }
 .iosSlider .slider .item .inner {
-	POSITION: relative; MARGIN: 0px auto; WIDTH: 100%; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: 50% 0px; HEIGHT: 100%; TOP: 0px; LEFT: 0px; box-shadow: 0 0 10px -5px #000
+	POSITION: relative;
+	MARGIN: 0px auto;
+	WIDTH: 100%; 
+	BACKGROUND-REPEAT: no-repeat;
+	BACKGROUND-POSITION: 50% 0px; 
+	HEIGHT: 100%;
+	TOP: 0px; 
+	LEFT: 0px; 
+	box-shadow: 0 0 10px -5px #000
 }
 .iosSlider .slider .item .inner IMG {
-	POSITION: relative; MARGIN: 0px auto; WIDTH: 100%; TOP: 0px; LEFT: 0px
+	POSITION: relative; 
+	MARGIN: 0px auto;
+	WIDTH: 100%; 
+	TOP: 0px; 
+	LEFT: 0px
 }
 .iosSlider .slider .item .inner .selectorShadow {
-	POSITION: absolute; WIDTH: 120px; BOTTOM: 0px; DISPLAY: none; BACKGROUND: url(../_img/selector-shadow.png) no-repeat 0px 0px; HEIGHT: 30px; LEFT: 0px
+	POSITION: absolute;
+	WIDTH: 120px; 
+	BOTTOM: 0px; 
+	DISPLAY: none; 
+	BACKGROUND: url(../_img/selector-shadow.png) no-repeat 0px 0px;
+	HEIGHT: 30px; LEFT: 0px
 }
 .iosSlider .slider .item .inner .text1 {
-	POSITION: absolute; TEXT-ALIGN: left; FILTER: alpha(opacity=0); PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; BOTTOM: 12%; PADDING-RIGHT: 12px; BACKGROUND: #000000 0px 0px; HEIGHT: 50px; PADDING-TOP: 0px; opacity: 0; TOP: 251px;
+	POSITION: absolute; 
+	TEXT-ALIGN: left;
+	FILTER: alpha(opacity=0); 
+	PADDING-BOTTOM: 0px; 
+	PADDING-LEFT: 12px; 
+	BOTTOM: 12%; 
+	PADDING-RIGHT: 12px; 
+	BACKGROUND: #000000 0px 0px; 
+	HEIGHT: 50px; 
+	PADDING-TOP: 0px; opacity: 0; TOP: 251px;
 }
 .iosSlider .slider .item .inner .text1 SPAN {
-	PADDING-BOTTOM: 0px; LINE-HEIGHT: 50px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; FONT-FAMILY: "Microsoft Yahei"; COLOR: #fff; FONT-SIZE: 24px; FONT-WEIGHT: 700; PADDING-TOP: 0px
+	PADDING-BOTTOM: 0px;
+	LINE-HEIGHT: 50px;
+	PADDING-LEFT: 8px;
+	PADDING-RIGHT: 8px; 
+	FONT-FAMILY: "Microsoft Yahei";
+	COLOR: #fff; FONT-SIZE: 24px; 
+	FONT-WEIGHT: 700; PADDING-TOP: 0px
 }
 .iosSlider .slider .item .inner .text1 SPAN I {
 	MARGIN: 0px 0px 0px 5px
