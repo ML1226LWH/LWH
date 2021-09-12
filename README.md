@@ -27,7 +27,6 @@
 								<li><a href="generic.html">学习记录</a></li>
 								<li><a href="elements.html">未来目标</a></li>
 							</ul>
-							<a href="#" class="close">Close</a>
 						</div>
 					</nav>
 
@@ -36,11 +35,9 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<div class="content">
 										<h2 class="major">其他</h2>
 										<p>尽量保持更新中。。。</p>
 										<a href="#" class="special">更多信息请询问作者本人</a>
-									</div>
 								</div>
 					</section>
 	</body>
